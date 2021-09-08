@@ -1,1 +1,63 @@
 # CSL3403Assignment
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table{
+            font-weight: 500;
+        }
+        
+        th, td {
+          border: 1px solid black;
+          padding: 10px;
+          text-align: left;
+        }
+        tr:nth-child(even) {
+          background-color: #eee;
+        
+        }
+        tr:nth-child(odd) {
+            
+          background-color: #fff;
+        }            
+      </style>
+      
+      <table>
+    <title>About Myself</title>
+    <style type="text/css">
+        img {
+            width: 120px;
+            height: 120px;
+        }
+
+        body {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <table >
+          
+            <tr>
+                <td>Name : </td>
+                <td>Vishal Anand</td>
+                <td rowspan="3"><img src="anandg.JPEG" alt=" image is dislayed here" /></td>
+                </td>
+            </tr>
+            <tr>
+                <td>Roll : </td>
+                <td>2006181</td>
+            </tr>
+            <tr>
+                <td>Branch :</td>
+                <td>CSE</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>  
